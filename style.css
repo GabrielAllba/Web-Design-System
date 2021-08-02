@@ -1,9 +1,22 @@
 @font-face {
-    font-family: "Source Code bold";
-    src: url(./src/SourceCodePro-Bold.ttf);
-    font-family: "Source code italic";
-    src: url(./src/SourceCodePro-SemiBoldItalic.ttf)
+    font-family: "Source Code Bold";
+    src: url(./src/source-code-pro/SourceCodePro-Bold.ttf) format('truetype');
 }
+@font-face {
+    font-family: "Source Code Italic";
+    src: url(./src/source-code-pro/SourceCodePro-SemiBoldItalic.ttf) format('truetype');
+}    
+
+@font-face {
+    font-family:"Bold Poppins";
+    src: url(./src/poppins/Poppins-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Italic Poppins";
+    src: url(./src/poppins/Poppins-MediumItalic.ttf) format('truetype');
+}
+
+
 body{
     background-color: white;
 }
@@ -47,15 +60,27 @@ section div {
 #beige{
     background-color: #efd9ca;
 }
+#source-code-pro h3{
+    font-family: 'Source Code Pro', sans-serif;
+}
 
 #source-code-pro p {
     text-align: left;
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro',sans-serif;
 }
 #source-code-pro #two {
-    font-family: 'Source Code bold';
+    font-family: 'Source Code Bold',sans-serif;
 }
 
 #source-code-pro #three {
-    font-family: 'Source code italic';
+    font-family: 'Source Code Italic',sans-serif;
+}
+#poppins p{
+    font-family: poppins, sans-serif;
+}
+#poppins #y{
+    font-family: 'Bold Poppins',sans-serif;
+}
+#poppins #z {
+    font-family: 'Italic Poppins',sans-serif;
 }
