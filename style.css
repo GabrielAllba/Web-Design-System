@@ -15,8 +15,19 @@
     font-family: "Italic Poppins";
     src: url(./src/poppins/Poppins-MediumItalic.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Bitter';
+    src: url(./src/Bitter/Bitter/static/Bitter-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Bold Bitter';
+    src: url(./src/Bitter/Bitter/static/Bitter-ExtraBold.ttf) format('truetype');
+}
 
-
+@font-face {
+    font-family: 'Italic Bitter';
+    src: url(./src/Bitter/Bitter/static/Bitter-Italic.ttf) format('truetype');
+}
 body{
     background-color: white;
 }
@@ -75,6 +86,9 @@ section div {
 #source-code-pro #three {
     font-family: 'Source Code Italic',sans-serif;
 }
+#poppins h3 {
+    font-family: poppins;
+}
 #poppins p{
     font-family: poppins, sans-serif;
 }
@@ -83,4 +97,16 @@ section div {
 }
 #poppins #z {
     font-family: 'Italic Poppins',sans-serif;
+}
+#bitter h3 {
+    font-family: Bitter,serif;
+}
+#bitter #i{
+    font-family:Bitter,serif ;
+}
+#bitter #j{
+    font-family: 'Bold Bitter',serif;
+}
+#bitter #k{
+    font-family: 'Italic Bitter',serif;
 }
