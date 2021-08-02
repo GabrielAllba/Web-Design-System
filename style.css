@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Source Code bold";
+    src: url(./src/SourceCodePro-Bold.ttf);
+    font-family: "Source code italic";
+    src: url(./src/SourceCodePro-SemiBoldItalic.ttf)
+}
 body{
     background-color: white;
 }
@@ -17,7 +23,7 @@ p{
 #colors, #fonts, #text-styles {
     border: 2px solid grey;
     margin: 30px;
-    padding: 10px;
+    padding: 20px 10px;
 }
 section div {
     display: inline-block;
@@ -40,4 +46,16 @@ section div {
 }
 #beige{
     background-color: #efd9ca;
+}
+
+#source-code-pro p {
+    text-align: left;
+    font-family: 'Source Code Pro';
+}
+#source-code-pro #two {
+    font-family: 'Source Code bold';
+}
+
+#source-code-pro #three {
+    font-family: 'Source code italic';
 }
