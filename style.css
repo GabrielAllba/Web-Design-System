@@ -28,6 +28,9 @@
     font-family: 'Italic Bitter';
     src: url(./src/Bitter/Bitter/static/Bitter-Italic.ttf) format('truetype');
 }
+main{
+    padding: 0 80px;
+}
 body{
     background-color: white;
 }
